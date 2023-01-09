@@ -27,3 +27,4 @@ Recuerda que utilizamos soluciones de terceros para hacer nuestro trabajo mejor.
 
 ## Dependencias
 Cuando nuestro proyecto necesita utilizar dependencias de terceros a partir de npm, se añade un nuevo campo a nuestro package.json llamado “dependencies” el cual contendrá los módulos que tenemos instalados en ese proyecto y, por lo tanto, indica que el proyecto necesita de esas dependencias instaladas para poder correr correctamente.
+

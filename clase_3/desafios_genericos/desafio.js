@@ -1,4 +1,3 @@
-
 const objetos =  [
 	{
 		manzanas:3,

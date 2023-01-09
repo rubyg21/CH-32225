@@ -1,10 +1,10 @@
 const fs = require('fs')
-// const saveFile = require('./utils/saveFile')
+const saveFile = require('./utils/saveFile')
 
 class FileSystem {
   constructor(filename) {
       this.filename = filename 
- 
+      saveFaile(gnsdignsdgisdngisen)
       try {
         this.elements = fs.readFileSync(this.filename, 'utf8')
         this.elements = JSON.parse(this.elements)
@@ -84,12 +84,13 @@ class FileSystem {
 
 }
 
+
 const file = new FileSystem("./movies.json");
 
-file.save({title: 'Avengers', year: '2012'})
-file.save({title: 'Avengers: Age of Ultron', year: '2015'})
-file.save({title: 'Avengers: Infinity War', year: '2019'})
-file.save({title: 'Ant-man', year: '2018'})
+// file.save({title: 'Avengers', year: '2012'})
+// file.save({title: 'Avengers: Age of Ultron', year: '2015'})
+// file.save({title: 'Avengers: Infinity War', year: '2019'})
+// file.save({title: 'Ant-man', year: '2018'})
 
 console.log(file.getElements());
 
@@ -97,7 +98,7 @@ console.log(file.getElements());
 // console.log(file.getElements());
 
 file.update(4, { title: "Spiderman", year: '2002', actor: 'Tobey Mcguire' });
-// console.log(file.getElements());
+console.log(file.getElements());
 
 // file.save({title: 'Mommy', year: '2003'})
 // file.update(6, { year: "2002" });

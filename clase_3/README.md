@@ -36,3 +36,4 @@ Es utilizado principalmente en códigos que utilizan el patrón de diseño Facto
 - Las principales funcionalidades de este release son:
   - Operador nullish. Sirve para poder colocar un valor por default a variables que podrían ser nulas o indefinidas, a diferencia del operador ||, éstas filtran “falseys”
   - Variables privadas dentro de las clases, esto permite que algunas variables no sean accesibles desde el entorno de instancia de una clase y sólo sea utilizada de manera interna.
+

@@ -52,3 +52,7 @@ ES6, ES7, … , ES11
 - Las clases funcionan como moldes, por lo que una vez definida una de éstas, podemos crear múltiples objetos con la misma forma y con las mismas funcionalidades. A éstas se les llaman instancias.
 
 
+
+
+
+
